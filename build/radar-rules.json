@@ -1953,18 +1953,15 @@
   },
   "bing.com": {
     "_name": "Bing",
-    "www": [
+    "cn": [
       {
         "title": "每日壁纸",
         "docs": "https://docs.rsshub.app/routes/other",
         "source": [
-          "/",
           "/"
         ],
-        "target": "/bing/:routeParams?"
-      }
-    ],
-    "cn": [
+        "target": "/bing/"
+      },
       {
         "title": "搜索",
         "docs": "https://docs.rsshub.app/routes/other",
@@ -10395,19 +10392,6 @@
       }
     ]
   },
-  "my-formosa.com": {
-    "_name": "美麗島電子報",
-    ".": [
-      {
-        "title": "首页",
-        "docs": "https://docs.rsshub.app/routes/new-media",
-        "source": [
-          "/"
-        ],
-        "target": "/my-formosa/"
-      }
-    ]
-  },
   "mydrivers.com": {
     "_name": "快科技",
     "m": [
@@ -18500,8 +18484,7 @@
         "title": "用户文章",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
-          "/:usertype/:id/posts",
-          "/:usertype/:id"
+          "/:usertype/:id/posts"
         ],
         "target": "/zhihu/posts/:usertype/:id"
       },
